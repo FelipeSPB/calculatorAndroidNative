@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#000000"
+    android:background="@color/dark_gray"
     tools:context=".view.MainActivity">
 
     <TextView
@@ -19,6 +19,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"
         android:layout_marginTop="25dp"
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"/>
@@ -30,6 +31,8 @@
         android:layout_marginTop="50dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/devils_gray"
+        android:textColor="@color/white"
         android:text="C"
         android:textSize="50dp"
         />
@@ -42,6 +45,8 @@
         android:layout_marginLeft="10dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/devils_gray"
+        android:textColor="@color/white"
         android:text="%"
         android:textSize="50dp"
         />
@@ -54,6 +59,8 @@
         android:layout_width="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_height="80dp"
+        android:background="@color/devils_gray"
+        android:textColor="@color/white"
         android:text="÷"
         android:textSize="50dp"
         />
@@ -66,6 +73,8 @@
         android:layout_width="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_height="80dp"
+        android:background="@color/devils_gray"
+        android:textColor="@color/white"
         android:text="-"
         android:textSize="50dp"
         />
@@ -77,6 +86,8 @@
         android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:text="7"
         android:textSize="50dp"
         />
@@ -88,6 +99,8 @@
         android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:layout_marginLeft="10dp"
         android:text="8"
         android:textSize="50dp"
@@ -100,6 +113,8 @@
         android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:layout_marginLeft="10dp"
         android:text="9"
         android:textSize="50dp"
@@ -112,8 +127,10 @@
         android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/devils_gray"
+        android:textColor="@color/white"
         android:layout_marginLeft="10dp"
-        android:text="X"
+        android:text="x"
         android:textSize="50dp"
         />
 
@@ -124,6 +141,8 @@
         android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:text="4"
         android:textSize="50dp"
         />
@@ -136,6 +155,8 @@
         android:layout_marginLeft="10dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:text="5"
         android:textSize="50dp"
         />
@@ -148,6 +169,8 @@
         android:layout_marginLeft="10dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:text="6"
         android:textSize="50dp"
         />
@@ -160,6 +183,8 @@
         android:layout_marginLeft="10dp"
         android:layout_width="wrap_content"
         android:layout_height="175dp"
+        android:background="@color/firebrick"
+        android:textColor="@color/white"
         android:text="+"
         android:textSize="50dp"
         />
@@ -171,6 +196,8 @@
         android:layout_marginTop="15dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:text="1"
         android:textSize="50dp"
         />
@@ -183,6 +210,8 @@
         android:layout_marginLeft="10dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:text="2"
         android:textSize="50dp"
         />
@@ -195,6 +224,8 @@
         android:layout_marginLeft="10dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:text="3"
         android:textSize="50dp"
         />
@@ -207,6 +238,8 @@
         android:layout_marginLeft="10dp"
         android:layout_width="wrap_content"
         android:layout_height="80dp"
+        android:background="@color/devils_gray"
+        android:textColor="@color/white"
         android:text="="
         android:textSize="50dp"
         />
@@ -220,6 +253,8 @@
         android:layout_width="wrap_content"
         android:layout_height="80dp"
         android:text="."
+        android:background="@color/black"
+        android:textColor="@color/white"
         android:textSize="50dp"
         />
 
@@ -232,6 +267,8 @@
         android:layout_marginRight="10dp"
         android:text="0"
         android:textSize="50dp"
+        android:background="@color/black"
+        android:textColor="@color/white"
         app:layout_constraintRight_toLeftOf="@id/btn_dot"
         app:layout_constraintTop_toBottomOf="@id/btn_two" />
 
