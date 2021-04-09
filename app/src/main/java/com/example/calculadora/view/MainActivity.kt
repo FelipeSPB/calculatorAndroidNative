@@ -56,9 +56,11 @@ class MainActivity : AppCompatActivity(), Methods {
         }
         btn_equal.setOnClickListener{
             view_calculator.text = calculate(painel)
+            painel = view_calculator.text as String
         }
         btn_porcentage.setOnClickListener{
             view_calculator.text = porcentage(painel)
+            painel = view_calculator.text as String
         }
         btn_seven.setOnClickListener{
             if(painel.equals("0")){
